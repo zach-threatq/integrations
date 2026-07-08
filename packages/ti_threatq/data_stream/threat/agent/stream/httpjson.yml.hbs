@@ -32,7 +32,7 @@ request.transforms:
     value: {{page_size}}
 - set:
     target: url.params.fields
-    value: "*,sources,attributes,attributes.name,attributes.value"
+    value: {{threat_library_fields}}
 - set:
     target: url.params.cursorMark
     value: '[[.cursor.cursor_mark]]'
