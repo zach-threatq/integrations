@@ -105,7 +105,7 @@ streams:
         description: >-
           Comma-separated list of fields to retrieve from the Threat Library.
           An asterisk (*) can be used to retrieve all default fields. In ThreatQ v6.12 and later,
-          sources & attributes are no longer part of the default fields and must be explicitly requested.
+          sources and attributes are no longer part of the default fields and must be explicitly requested.
       - name: ssl
         type: yaml
         title: SSL Configuration
