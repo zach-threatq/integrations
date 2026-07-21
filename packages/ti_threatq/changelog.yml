@@ -1,7 +1,7 @@
 # newer versions go on top
 - version: "1.39.2"
   changes:
-    - description: Restores `sources` & `attributes` fields after recent updates to the ThreatQ Platform's API.
+    - description: Restores `sources` and `attributes` fields after recent updates to the ThreatQ Platform's API.
       type: bugfix
       link: https://github.com/elastic/integrations/pull/20042
 - version: "1.39.1"
